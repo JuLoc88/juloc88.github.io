@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Algorithms | Hi, I'm Julian Locke]]></title>
+  <link href="http://juloc88.github.io/blog/categories/algorithms/atom.xml" rel="self"/>
+  <link href="http://juloc88.github.io/"/>
+  <updated>2014-12-18T11:26:11-05:00</updated>
+  <id>http://juloc88.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Binary Search Algorithm in Ruby]]></title>
+    <link href="http://juloc88.github.io/blog/2014/12/18/simple-binary-search-algorithm-in-ruby/"/>
+    <updated>2014-12-18T11:22:00-05:00</updated>
+    <id>http://juloc88.github.io/blog/2014/12/18/simple-binary-search-algorithm-in-ruby</id>
+    <content type="html"><![CDATA[<p><strong> Part 1 of the Algorithms in Ruby Series </strong></p>
+
+<p>Here is some code for now&hellip;</p>
+
+<pre><code class="ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/Source Article">class Fixnum
+  def prime?
+      ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+</code></pre>
+
+<p>Please Share!!</p>
+]]></content>
+  </entry>
+  
+</feed>
