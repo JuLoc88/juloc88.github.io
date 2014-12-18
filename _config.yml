@@ -5,8 +5,8 @@
 url: http://juloc88.github.io
 title: Hi, I'm Julian Locke
 subtitle: I like talking about computer science stuff. 
-author: Your Name
-simple_search: https://www.google.com/search
+author: Julian Locke 
+#simple_search: https://www.google.com/search
 description: 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -64,13 +64,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: JuLoc88
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: juloc88
 twitter_tweet_button: true
 
 # Google +1
@@ -91,7 +91,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: 
 disqus_show_comment_count: false
 
 # Google Analytics
