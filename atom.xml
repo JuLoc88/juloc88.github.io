@@ -4,7 +4,7 @@
   <title><![CDATA[Hi, I'm Julian Locke]]></title>
   <link href="http://juloc88.github.io/atom.xml" rel="self"/>
   <link href="http://juloc88.github.io/"/>
-  <updated>2014-12-18T11:51:10-05:00</updated>
+  <updated>2014-12-18T11:53:17-05:00</updated>
   <id>http://juloc88.github.io/</id>
   <author>
     <name><![CDATA[Julian Locke]]></name>
@@ -24,6 +24,8 @@
 
 
 <p>Here is some code for now&hellip;</p>
+
+<p>This is a test&hellip;</p>
 
 <figure class='code'><figcaption><span>Discover if a number is prime</span><a href='http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/Source'>Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
