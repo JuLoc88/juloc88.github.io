@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Hi, I'm Julian Locke]]></title>
   <link href="http://juloc88.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://juloc88.github.io/"/>
-  <updated>2014-12-18T11:26:11-05:00</updated>
+  <updated>2014-12-18T11:37:11-05:00</updated>
   <id>http://juloc88.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-12-18T11:22:00-05:00</updated>
     <id>http://juloc88.github.io/blog/2014/12/18/simple-binary-search-algorithm-in-ruby</id>
     <content type="html"><![CDATA[<p><strong> Part 1 of the Algorithms in Ruby Series </strong></p>
+
+<!-- more -->
+
 
 <p>Here is some code for now&hellip;</p>
 
