@@ -4,7 +4,7 @@
   <title><![CDATA[Hi, I'm Julian Locke]]></title>
   <link href="http://juloc88.github.io/atom.xml" rel="self"/>
   <link href="http://juloc88.github.io/"/>
-  <updated>2014-12-18T22:07:53-05:00</updated>
+  <updated>2014-12-20T15:11:15-05:00</updated>
   <id>http://juloc88.github.io/</id>
   <author>
     <name><![CDATA[Julian Locke]]></name>
@@ -29,12 +29,12 @@ this, just know my post is not ready yet&hellip; </strong></p>
 <p>Well in short an algorithm is just a series of steps it takes an entity to solve a problem.
 Everyday you use algorithms without even noticing you are using them.</p>
 
-<p>For example in order for me to head to work when I wake up I brush my teeth, take a shower, dry
+<p>For example in order for me to head to work in the morning first I must I brush my teeth, take a shower, dry
 off and get dressed for work.</p>
 
-<p>The Goal: Get to work.                     <br/>
+<p>The Goal: Get ready for work.                     <br/>
 The Problem: I wake up with morning breath and a slight sweaty smell.       <br/>
-The Formula:</p>
+The Formula for the solution:</p>
 
 <ol>
 <li>Brush Teeth</li>
@@ -46,11 +46,11 @@ The Formula:</p>
 
 <p>Now I can set out for work. See algorithms made easy!</p>
 
-<div style="align: center"><img class="center" src="http://juloc88.github.io/images/office-dude.jpg" title="Office Dude" alt="Office Dude"></div>
+<div class="cn-img"><img src="http://juloc88.github.io/images/office-dude.jpg" title="Office Dude" alt="Office Dude"></div>
 
 
-<div style="align: center; font-size: 13px;">And I totally forgot to put my underwear on
-this morning&#8230; </div>
+<div class="img-text">&#8220;And I totally forgot to put my underwear on
+this morning&#8230;&#8221;</div>
 
 
 <p></br></p>
