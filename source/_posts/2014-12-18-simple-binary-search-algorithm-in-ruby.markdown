@@ -16,12 +16,12 @@ What is an algorithm?
 Well in short an algorithm is just a series of steps it takes an entity to solve a problem.
 Everyday you use algorithms without even noticing you are using them.
 
-For example in order for me to head to work when I wake up I brush my teeth, take a shower, dry
+For example in order for me to head to work in the morning first I must I brush my teeth, take a shower, dry
 off and get dressed for work.
 
-The Goal: Get to work.                       
+The Goal: Get ready for work.                       
 The Problem: I wake up with morning breath and a slight sweaty smell.         
-The Formula:
+The Formula for the solution:
 
 1.  Brush Teeth
 2.  Take Shower
@@ -30,9 +30,11 @@ The Formula:
 
 Now I can set out for work. See algorithms made easy!
 
-<div style="align: center">{% img center /images/office-dude.jpg 'Office Dude' 'Office Dude' %}</div>
-<div style="align: center; font-size: 13px;">And I totally forgot to put my underwear on
-this morning... </div>
+<div class="cn-img">{% img /images/office-dude.jpg 'Office Dude' 'Office Dude' %}</div>
+<div class="img-text">"And I totally forgot to put my underwear on
+this morning..."</div>
+
+
 
 </br>
 
