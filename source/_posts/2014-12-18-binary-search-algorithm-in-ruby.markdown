@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Simple Binary Search Algorithm in Ruby"
+title: "Binary Search Algorithm in Ruby"
 date: 2014-12-18 11:22:00 -0500
 comments: true
 categories: [Ruby, Algorithms]
 ---
 
-** Part 1 of the Algorithms in Ruby Series: If you happen to be reading
-this, just know my post is not ready yet... **
+** Part 1 of the Algorithms in Ruby Series **
 
 <!-- more -->
 
