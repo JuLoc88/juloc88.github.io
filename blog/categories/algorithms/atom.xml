@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Algorithms | Hi, I'm Julian Locke]]></title>
+  <link href="http://juloc88.github.io/blog/categories/algorithms/atom.xml" rel="self"/>
+  <link href="http://juloc88.github.io/"/>
+  <updated>2014-12-20T15:24:56-05:00</updated>
+  <id>http://juloc88.github.io/</id>
+  <author>
+    <name><![CDATA[Julian Locke]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Binary Search Algorithm in Ruby]]></title>
+    <link href="http://juloc88.github.io/blog/2014/12/18/simple-binary-search-algorithm-in-ruby/"/>
+    <updated>2014-12-18T11:22:00-05:00</updated>
+    <id>http://juloc88.github.io/blog/2014/12/18/simple-binary-search-algorithm-in-ruby</id>
+    <content type="html"><![CDATA[<p><strong> Part 1 of the Algorithms in Ruby Series: If you happen to be reading
+this, just know my post is not ready yet&hellip; </strong></p>
+
+<!-- more -->
+
+
+<p>What is an algorithm?</p>
+
+<p>Well in short an algorithm is just a series of steps it takes an entity to solve a problem.
+Everyday you use algorithms without even noticing you are using them.</p>
+
+<p>For example in order for me to head to work in the morning first I must I brush my teeth, take a shower, dry
+off and get dressed for work.</p>
+
+<p>The Goal: Get ready for work.                     <br/>
+The Problem: I wake up with morning breath and a slight sweaty smell.       <br/>
+The Formula for the solution:</p>
+
+<ol>
+<li>Brush Teeth</li>
+<li>Take Shower</li>
+<li>Dry Off</li>
+<li>Get Dressed</li>
+</ol>
+
+
+<p>Now I can set out for work. See algorithms made easy!</p>
+
+<div class="cn-img"><img src="/images/office-dude.jpg" title="Office Dude" alt="Office Dude"></div>
+
+
+<div class="img-text">&#8220;And I totally forgot to put my underwear on
+this morning&#8230;&#8221;</div>
+
+
+<p></br></p>
+
+<pre><code class="ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/Source Article">class Fixnum
+  def prime?
+      ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+</code></pre>
+
+<p>Please Share!!</p>
+]]></content>
+  </entry>
+  
+</feed>
