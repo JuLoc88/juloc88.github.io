@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Algorithms | Hi, I'm Julian Locke]]></title>
   <link href="http://juloc88.github.io/blog/categories/algorithms/atom.xml" rel="self"/>
   <link href="http://juloc88.github.io/"/>
-  <updated>2014-12-21T11:32:43-05:00</updated>
+  <updated>2014-12-21T23:27:46-05:00</updated>
   <id>http://juloc88.github.io/</id>
   <author>
     <name><![CDATA[Julian Locke]]></name>
@@ -50,6 +50,35 @@ The Formula for the solution:</p>
 
 <div class="img-text">&#8220;And I totally forgot to put my underwear on
 this morning&#8230;&#8221;</div>
+
+
+<p></br></p>
+
+<p>Let&rsquo;s play a game&hellip;</p>
+
+<p>The computer is going to randomly select an integer from 1 to 42. You
+have to make guesses until you find the number that the computer chose.</p>
+
+<p>At first you think to yourself, &ldquo;Well I will just guess the number 1
+first and if that is not the number I will pick 2 next and so on&hellip;&rdquo;.</p>
+
+<p>This my friend is what we call a linear search approach, because you
+guess all the numbers in a linear, or line up in a row, matter.</p>
+
+<p>Yes that approach will work, but here is the problem. If the computer
+selected 6, you would need 6 guesses to get it right. If the computer
+selected 24, you would need 24 guesses&hellip; can you see where this is
+going?</p>
+
+<p>Just imagine if during this game between you and the computer you used
+the linear method of searching for any two ranges of your choice, but the computer
+got to pick the max number in the range for the search&hellip; Oh an if
+you didn&rsquo;t pick right answer in less then 30 tries you would die a horrible death!</p>
+
+<div class="cn-img"><img src="http://build2be.com/sites/build2be.com/files/3707-1269760552-19166314f102a283f25c2d8d88c32a7a.jpg" width="465" height="310" title="Hal 3000" alt="Hal 3000"></div>
+
+
+<div class="img-text">&#8220;Greetings and welcome&#8230; I want to play a game.&#8221;</div>
 
 
 <p></br></p>
