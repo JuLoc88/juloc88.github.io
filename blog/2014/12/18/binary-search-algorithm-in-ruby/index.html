@@ -90,8 +90,7 @@
 <p>Well in short an algorithm is just a series of steps it takes an entity to solve a problem.
 Everyday you use algorithms without even noticing you are using them.</p>
 
-<p>For example in order for me to head to work in the morning first I must I brush my teeth, take a shower, dry
-off and get dressed for work.</p>
+<p>For example in order for me to head to work in the morning first I must brush my teeth, take a shower, dry off and get dressed for work.</p>
 
 <p>The Goal: Get ready for work.                     <br/>
 The Problem: I wake up with morning breath and a slight sweaty smell.       <br/>
@@ -121,11 +120,11 @@ this morning&#8230;&#8221;</div>
 <p>The computer is going to randomly select an integer from 1 to 42. You
 have to make guesses until you find the number that the computer chose.</p>
 
-<p>At first you think to yourself, &ldquo;Well I will just guess the number 1
-first and if that is not the number I will pick 2 next and so on&hellip;&rdquo;.</p>
+<p>You may think to yourself at first, &ldquo;Well I will just guess the number 1
+first and if that is not the number, I will guess 2 next and so on&hellip;&rdquo;.</p>
 
-<p>This my friend is what we call a linear search approach, because you
-guess all the numbers in a linear, or line up in a row, matter.</p>
+<p>This, my friend, is what we call a linear search approach, because you
+guess all the numbers in a linear matter.</p>
 
 <p>Yes that approach will work, but here is the problem. If the computer
 selected 6, you would need 6 guesses to get it right. If the computer
@@ -133,9 +132,10 @@ selected 24, you would need 24 guesses&hellip; can you see where this is
 going?</p>
 
 <p>Just imagine if during this game between you and the computer you used
-the linear method of searching for any two ranges of your choice, but the computer
-got to pick the max number in the range for the search&hellip; Oh an if
-you didn&rsquo;t pick right answer in less then 30 tries you would die a horrible death!</p>
+the linear method for searching on any two ranges of your choice (1 to 30, 12 to 42, etc.), but the computer
+got to pick the max number for the overall range of numbers (meaning the computer
+can pick a number from 1 to 42, 1 to 360, or even 1 to 1,000,000)&hellip; Oh an if
+you didn&rsquo;t guess the right answer in less then 30 tries you would die a horrible death!</p>
 
 <div class="cn-img"><img src="http://build2be.com/sites/build2be.com/files/3707-1269760552-19166314f102a283f25c2d8d88c32a7a.jpg" width="465" height="310" title="Hal 3000" alt="Hal 3000"></div>
 
@@ -144,6 +144,56 @@ you didn&rsquo;t pick right answer in less then 30 tries you would die a horribl
 
 
 <p></br></p>
+
+<p>Worry not my friend, for I have great news for you. What if I told you
+that with the right information you could find the computers randomly
+selected number from 1 to 1,000,000 in less then 30 tries!!!</p>
+
+<p>To make this easy, first we will have the computer randomly select a
+number ranging from 1 to 10. Next instead of guessing the number 1 you
+decide to guess the number that is in the middle of the range. This
+means you will guess the average of max and min, rounded down so that
+you will always have an integer.</p>
+
+<p>Next if you guessed the right number then the game is over, you found
+the right number!</p>
+
+<p>If that is not the case and your guess was too low, set min to be one
+larger than the guess and make a new guess.</p>
+
+<p>Else if the guess was too high, set max to be one samller than the guess and
+make a new guess.</p>
+
+<p>We can shorten and write out this algorithm as follows:</p>
+
+<ol>
+<li>Let min = 1 and max = n</li>
+<li>Guess average of max and min, rounded down.</li>
+<li>If you guessed the correct number, game over.</li>
+<li>If you guess was too low, set min to be one larger than the guess.</li>
+<li>If the guess was too high, set max to be one smaller than the guess.</li>
+<li>Go back to step 2.</li>
+</ol>
+
+
+<p>So lets say the computer randomly selected 1 as its number. Using the
+method outlined above you will guess the right answer in 3 tries.</p>
+
+<ul>
+<li>Min = 1 and Max = 10</li>
+<li>(1 + 10) / 2 = 5 | First guess was too high, rule out numbers 5 to 10</li>
+<li>(1 + 4) / 2 (rounded down) = 2 | Second guess was too high, rule out
+numbers 2 to 4</li>
+<li>(1 + 1) / 2 = 1 | You guessed correct!</li>
+</ul>
+
+
+<p>CONGRATULATIONS!!! You just did a binary search!</p>
+
+<p>Now lets take what we just learned and write a ruby program that will do
+all the work for us. We will make it so that we can enter the max range
+instead of the computer, but we will still let the computer randomly
+select a number ranging from 1 to n.</p>
 
 <figure class='code'><figcaption><span>Discover if a number is prime</span><a href='http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/Source'>Article</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
