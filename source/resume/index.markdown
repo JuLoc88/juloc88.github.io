@@ -40,8 +40,4 @@ sales. Employed 3 people. Sold in 2012.
 
 **East Tennessee State University**
 
-- Bachelor of Science in Interdisciplinary Studies - Computer Science
-
-**Northeast State**
-
-- Associate of Science  - Business: Accounting
+- Studied Software Engineering at East Tennessee State
