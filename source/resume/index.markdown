@@ -40,4 +40,4 @@ sales. Employed 3 people. Sold in 2012.
 
 **East Tennessee State University**
 
-- Studied Software Engineering at East Tennessee State
+- Studied Software Engineering at East Tennessee State University
