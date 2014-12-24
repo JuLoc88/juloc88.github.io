@@ -101,16 +101,9 @@ numbers 2 to 4
 
 CONGRATULATIONS!!! You just did a binary search!
 
-Now lets take what we just learned and write a ruby program that will do
+Now for our next step lets take what we just learned and write a ruby program that will do
 all the work for us. We will make it so that we can enter the max range
-instead of the computer, but we will still let the computer randomly
+instead of the computer randomly selecting one, but we will still let the computer randomly
 select a number ranging from 1 to n.
 
-``` ruby Discover if a number is prime http://www.noulakaz.net/weblog/2007/03/18/a-regular-expression-to-check-for-prime-numbers/Source Article
-class Fixnum
-  def prime?
-      ('1' * self) !~ /^1?$|^(11+?)\1+$/
-  end
-end
-```
-Please Share!!
+See you next time!
