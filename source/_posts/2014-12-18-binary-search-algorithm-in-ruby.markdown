@@ -106,4 +106,48 @@ all the work for us. We will make it so that we can enter the max range
 instead of the computer randomly selecting one, but we will still let the computer randomly
 select a number ranging from 1 to n.
 
+``` ruby Binary Search using Ruby https://github.com/JuLoc88/Programs/blob/master/Ruby/binary-search.rb Github Source
+min = 1
+tries = 0
+guess = 0
+
+puts "Enter max number..."
+max = gets.chomp.to_i
+answer = rand(max) + 1
+
+while guess != answer
+  puts "Guess a number from #{min} to #{max}."
+
+  # user input guess
+  #STDOUT.flush
+  #guess = gets.chomp.to_i
+
+  # automated guess
+  guess = ((max + min) / 2).floor
+
+  if guess == answer
+    puts "> You entered #{guess}."
+    puts "You guessed correct!"
+    tries += 1
+    break
+  end
+
+  if guess < answer
+    min = guess + 1
+    puts "> You entered #{guess}."
+    puts "The answer is higher than #{guess}"
+  end
+
+  if guess > answer
+    max = guess - 1
+    puts "> You entered #{guess}."
+    puts "The answer is lower than #{guess}"
+  end
+
+  tries += 1
+end
+
+puts "You guessed the answer in #{tries} tries!"
+```
+
 See you next time!
